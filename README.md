@@ -1,6 +1,6 @@
-## npm 7+
+# Getting Started
 ```bash
-npm create vite@latest calculator-app-react-basics -- --template react
+npx create-react-app calculator-app-react-basics
 ```
 
 ```bash
@@ -8,9 +8,5 @@ cd calculator-app-react-basics
 ```
 
 ```bash
-npm install
-```
-
-```bash
-npm run dev
+npm start
 ```
