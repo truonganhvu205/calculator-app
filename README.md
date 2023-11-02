@@ -6,9 +6,10 @@ cd calculator-app-react-basics
 
 npm start
 ```
+
 <table align='center'>
   <tr align='center'>
-    <td>Calculator App</td>
+    <td>Calculator app</td>
   </tr>
   <tr align='center'>
     <td>
