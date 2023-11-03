@@ -1,9 +1,14 @@
-# Getting Started
+# Create React app
 ```bash
 npx create-react-app calculator-app-react-basics
+```
 
+```bash
 cd calculator-app-react-basics
+```
 
+# Getting Started
+```bash
 npm start
 ```
 
