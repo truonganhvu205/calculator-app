@@ -2,6 +2,7 @@
 git init
 git clone https://github.com/truonganhvu205/calculator-app.git
 cd calculator-app
+npm install
 npm start
 ```
 
