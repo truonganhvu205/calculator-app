@@ -1,8 +1,8 @@
 # Clone project
 ```bash
 git init
-git clone https://github.com/truonganhvu205/calculator-app.git
-cd calculator-app
+git clone https://github.com/truonganhvu205/calculator-app-react.git
+cd calculator-app-react
 npm install
 npm start
 ```
