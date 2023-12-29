@@ -7,6 +7,7 @@ npm install
 npm start
 ```
 
+# Preview project
 <table align='center'>
   <tr align='center'>
     <td>Calculator app</td>
