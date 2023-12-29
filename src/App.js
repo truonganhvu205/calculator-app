@@ -57,15 +57,15 @@ function App() {
           placeholder='Type a number'
         />
 
-        <button onClick={plus}>add</button>
-        <button onClick={minus}>subtract</button>
-        <button onClick={times}>multiply</button>
-        <button onClick={divide}>divide</button>
-        <button onClick={resetInput}>reset input</button>
-        <button onClick={resetResult}>reset result</button>
+        <button onClick={plus}>ADD</button>
+        <button onClick={minus}>SUBTRACT</button>
+        <button onClick={times}>MULTIPLY</button>
+        <button onClick={divide}>DIVIDE</button>
+        <button onClick={resetInput}>RESET INPUT</button>
+        <button onClick={resetResult}>RESET RESULT</button>
       </form>
     </div>
   )
 }
 
-export default App 
+export default App
