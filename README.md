@@ -14,7 +14,7 @@ npm start
   </tr>
   <tr align='center'>
     <td>
-      <img src='https://github.com/truonganhvu205/calculator-app/blob/main/calculator-app-react/calculator-app-react-pic.png' />
+      <img src='https://github.com/truonganhvu205/calculator-app-react/blob/main/calculator-app-react/calculator-app-react-pic.png' />
     </td>
   </tr>
  </table>
