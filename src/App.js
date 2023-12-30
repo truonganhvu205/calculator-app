@@ -42,27 +42,35 @@ function App() {
   return (
     <div className='App'>
       <div>
-        <h1>Simplest Working Calculator</h1>
+        <h1>Simplest working calculator</h1>
       </div>
 
       <form>
-        <p ref={resultRef}>
-          {result}
-        </p>
+        <div className='screen'>
+          <p ref={resultRef}>
+            {result}
+          </p>
 
-        <input
-          pattern='[0-9]'
-          ref={inputRef}
-          type='number'
-          placeholder='Type a number'
-        />
+          <input
+            pattern='[0-9]'
+            ref={inputRef}
+            type='number'
+            placeholder='Type a number'
+          />
+        </div>
 
-        <button onClick={plus}>ADD</button>
-        <button onClick={minus}>SUBTRACT</button>
-        <button onClick={times}>MULTIPLY</button>
-        <button onClick={divide}>DIVIDE</button>
-        <button onClick={resetInput}>RESET INPUT</button>
-        <button onClick={resetResult}>RESET RESULT</button>
+        <div className='function'>
+          <div className='gr1'>
+            <button onClick={plus}>+</button>
+            <button onClick={minus}>-</button>
+            <button onClick={times}>x</button>
+            <button onClick={divide}>/</button>
+          </div>
+          <div className='gr2'>
+            <button onClick={resetInput}>RESET INPUT</button>
+            <button onClick={resetResult}>RESET RESULT</button>
+          </div>
+        </div>
       </form>
     </div>
   )
